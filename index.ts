@@ -71,7 +71,14 @@ myVariable = undefined;
 // 9) Crea un tipo per rappresentare i giorni della settimana usando union di
 // stringhe letterali
 
-type DayType = string | number;
+type DayType =
+  | 'Monday'
+  | 'Tuesday'
+  | 'Wednesday'
+  | 'Thursday'
+  | 'Friday'
+  | 'Saturday'
+  | 'Sunday';
 
 let firstDay: DayType = 'Monday';
 
