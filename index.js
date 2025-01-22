@@ -50,3 +50,51 @@ var firstDay = 'Monday';
 // const numbers = [1, 2, 3];
 var numbers1 = [1, 2, 3];
 var numbers2 = [1, 2, 3];
+// 11) Crea una tupla per definire un array di 5 elementi, i primi 3 devono essere
+// stringhe e gli ultimi 2 numeri
+var myTupla1 = [
+    'Gianluca',
+    'Di Diego',
+    'FS0924',
+    2001,
+    23,
+];
+var myTupla2 = [
+    'Gianluca',
+    'Di Diego',
+    'FS0924',
+    2001,
+    23,
+];
+var pippo = {
+    name: 'Pippo',
+    valutation: 8,
+};
+var pluto = {
+    name: 'Pluto',
+    valutation: 9,
+};
+var paperino = {
+    name: 'Paperino',
+    valutation: 5,
+};
+var studentsArray = [pippo, pluto, paperino];
+// 17) Crea un oggetto che implementi l'interfaccia "Auto"
+var myCar = {
+    brand: 'Fiat',
+    yearRegistration: 2015,
+    numberOfWheels: 4,
+    color: 'red',
+    numberOfCounters: 5,
+};
+var myResponse1 = {
+    ok: true,
+    data: 'ciao',
+};
+var myResponse2 = {
+    ok: true,
+    data: {
+        data: ['Pippo', 'Pluto', 'Paperino'],
+        isTrusted: true,
+    },
+};
